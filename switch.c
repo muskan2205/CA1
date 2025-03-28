@@ -16,3 +16,6 @@ int main() {
 	    case 3:
             printf("You entered Three.\n");
             break;
+	    case 4:
+            printf("You entered Four.\n");
+            break;
