@@ -13,3 +13,6 @@ int main() {
 	    case 2:
             printf("You entered Two.\n");
             break;
+	    case 3:
+            printf("You entered Three.\n");
+            break;
