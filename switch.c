@@ -11,7 +11,7 @@ int main() {
             printf("B TECH CSE  m from amity university.\n");
             break;
 	    case 2:
-            printf("B TECH AIML.\n");
+            printf("B TECH AIML i m very much intrested in GEN AI.\n");
             break;
 	    case 3:
             printf("B TECH ECE.\n");
