@@ -10,3 +10,6 @@ int main() {
         case 1:
             printf("You entered One.\n");
             break;
+	    case 2:
+            printf("You entered Two.\n");
+            break;
