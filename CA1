@@ -7,5 +7,9 @@ int main() {
     scanf("%d", &number);
 switch (number) {
         case 1:
-            printf("b tech cse\n");
+            printf("b tech cse\n")i;
+            break;
+
+case 2:
+            printf("B tech AIML\n");
             break;

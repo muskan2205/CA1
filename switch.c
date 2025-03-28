@@ -8,14 +8,14 @@ int main() {
 
     switch (number) {
         case 1:
-            printf("You entered One.\n");
+            printf("B TECH CSE  m from amity university.\n");
             break;
 	    case 2:
-            printf("You entered Two.\n");
+            printf("B TECH AIML.\n");
             break;
 	    case 3:
-            printf("You entered Three.\n");
+            printf("B TECH ECE.\n");
             break;
 	    case 4:
-            printf("You entered Four.\n");
+            printf("B TECH MECH.\n");
             break;
