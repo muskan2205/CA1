@@ -14,7 +14,7 @@ int main() {
             printf("B TECH AIML i m very much intrested in GEN AI.\n");
             break;
 	    case 3:
-            printf("B TECH ECE.\n");
+            printf("B TECH ECE. ece is told to be compartively tuff \n");
             break;
 	    case 4:
             printf("B TECH MECH.\n");
