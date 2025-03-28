@@ -17,5 +17,5 @@ int main() {
             printf("B TECH ECE. ece is told to be compartively tuff \n");
             break;
 	    case 4:
-            printf("B TECH MECH.\n");
+            printf("B TECH MECH.we leanr about machines\n");
             break;
