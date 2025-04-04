@@ -20,4 +20,11 @@ def calculate_average():
         print(f"{name}'s average grade is {avg:.2f}\n")
     else:
         print("Student not found.\n")
-
+def menu():
+    while True:
+        print("Grade Book Menu")
+        print("1. Add Student")
+        print("2. View All Students")
+        print("3. Calculate Average Grade")
+        print("4. Exit")
+        choice = input("Choose an option: ")
