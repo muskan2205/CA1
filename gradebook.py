@@ -13,4 +13,11 @@ def view_students():
         for student, grades in grade_book.items():
             print(f"{student}: Grades = {grades}")
         print()
+def calculate_average():
+    name = input("Enter student's name to calculate average: ")
+    if name in grade_book:
+        avg = sum(grade_book[name]) / len(grade_book[name])
+        print(f"{name}'s average grade is {avg:.2f}\n")
+    else:
+        print("Student not found.\n")
 
