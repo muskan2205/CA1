@@ -6,4 +6,11 @@ def add_student():
     grade_list = list(map(float, grades.split()))
     grade_book[name] = grade_list
     print(f"{name} added with grades {grade_list}.\n")
+def view_students():
+    if not grade_book:
+        print("No students in the grade book.\n")
+    else:
+        for student, grades in grade_book.items():
+            print(f"{student}: Grades = {grades}")
+        print()
 
