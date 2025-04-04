@@ -25,3 +25,11 @@ def search_contact():
             break
     if not found:
         print("Contact not found.\n")
+def delete_contact():
+    del_name = input("Enter name to delete: ")
+    for contact in contacts:
+        if contact["name"].lower() == del_name.lower():
+            contacts.remove(contact)
+            print("Contact deleted successfully!\n")
+            return
+    print("Contact not found.\n")
