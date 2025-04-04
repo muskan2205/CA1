@@ -28,3 +28,17 @@ def menu():
         print("3. Calculate Average Grade")
         print("4. Exit")
         choice = input("Choose an option: ")
+         
+        if choice == '1':
+            add_student()
+        elif choice == '2':
+            view_students()
+        elif choice == '3':
+            calculate_average()
+        elif choice == '4':
+            print("Exiting Grade Book. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Try again.\n")
+
+menu()
