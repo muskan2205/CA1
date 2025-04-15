@@ -30,16 +30,13 @@ calculator()
 
 
 
-
 principal = float(input("Enter the principal amount: "))
 rate = float(input("Enter the rate of interest: "))
 time = float(input("Enter the time (in years): "))
 
 simple_interest = (principal * rate * time) / 100
 
-
 print("Simple Interest =", simple_interest)
-
 
 
 
@@ -50,4 +47,11 @@ sum_result = num1 + num2
 
 print(f"The sum of {num1} and {num2} is {sum_result}")
 
+
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even")
+else:
+    print(f"{num} is odd")
 
