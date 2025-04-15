@@ -62,3 +62,7 @@ c = int(input("Enter third number: "))
 largest = max(a, b, c)
 print(f"The largest number is {largest}")
 
+
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
