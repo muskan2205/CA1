@@ -9,3 +9,7 @@ def number_guessing_game():
     number_to_guess = random.randint(1, 100)
     guess = None
     attempts = 0
+    while guess != number_to_guess:
+        try:
+            guess = int(input("Take a guess: "))
+            attempts += 1
