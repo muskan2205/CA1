@@ -13,3 +13,7 @@ def number_guessing_game():
         try:
             guess = int(input("Take a guess: "))
             attempts += 1
+	    if guess < number_to_guess:
+                print("Too low! Try again.")
+            elif guess > number_to_guess:
+                print("Too high! Try again.")
