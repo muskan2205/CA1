@@ -1,0 +1,3 @@
+lets write a code to make a simple game in python language
+Here's a simple number guessing game in Python. It’s interactive, runs in the terminal, and gives you hints until you guess the right number:
+
