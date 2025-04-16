@@ -21,4 +21,9 @@ def number_guessing_game():
                 print(f"Congratulations! You guessed it in {attempts} attempts.")
         except ValueError:
             print("Please enter a valid number!")
+How to Play:
+Run the script.
 
+Type your guess when prompted.
+
+The program will guide you with "Too low!" or "Too high!" until you get the right number.
