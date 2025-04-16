@@ -1,3 +1,11 @@
 lets write a code to make a simple game in python language
 Here's a simple number guessing game in Python. It’s interactive, runs in the terminal, and gives you hints until you guess the right number:
+import random
 
+def number_guessing_game():
+    print("Welcome to the Number Guessing Game!")
+    print("I'm thinking of a number between 1 and 100.")
+    
+    number_to_guess = random.randint(1, 100)
+    guess = None
+    attempts = 0
