@@ -12,3 +12,15 @@ simple_interest = (principal * rate * time) / 100
 
 print(f"Simple Interest = {simple_interest}")
 
+
+now we will write a simple code for compund intrest!
+def calculate_compound_interest(principal, rate, time, compounds_per_year=1):
+    """
+    Calculate compound interest.
+
+    Args:
+        principal (float): Initial investment amount
+        rate (float): Annual interest rate (decimal form, e.g., 0.05 for 5%)
+        time (float): Time period in years
+        compounds_per_year (int): Number of times interest is compounded per year
+
