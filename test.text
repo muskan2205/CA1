@@ -41,4 +41,12 @@ if __name__ == "__main__":
     quarterly = calculate_compound_interest(principal, rate, time, 4)
     monthly = calculate_compound_interest(principal, rate, time, 12)
     daily = calculate_compound_interest(principal, rate, time, 365)
-    
+     # Display results
+    print(f"Initial principal: ${principal}")
+    print(f"Annual interest rate: {rate*100}%")
+    print(f"Time period: {time} years")
+    print(f"Final amount (annual compounding): ${annual:.2f}")
+    print(f"Final amount (semi-annual compounding): ${semi_annual:.2f}")
+    print(f"Final amount (quarterly compounding): ${quarterly:.2f}")
+    print(f"Final amount (monthly compounding): ${monthly:.2f}")
+    print(f"Final amount (daily compounding): ${daily:.2f}")
