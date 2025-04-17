@@ -35,4 +35,10 @@ if __name__ == "__main__":
     principal = 1000
     rate = 0.05  # 5%
     time = 5     # 5 years
-
+ # Calculate for different compounding frequencies
+    annual = calculate_compound_interest(principal, rate, time, 1)
+    semi_annual = calculate_compound_interest(principal, rate, time, 2)
+    quarterly = calculate_compound_interest(principal, rate, time, 4)
+    monthly = calculate_compound_interest(principal, rate, time, 12)
+    daily = calculate_compound_interest(principal, rate, time, 365)
+    
