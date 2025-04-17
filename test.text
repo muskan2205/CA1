@@ -23,4 +23,9 @@ def calculate_compound_interest(principal, rate, time, compounds_per_year=1):
         rate (float): Annual interest rate (decimal form, e.g., 0.05 for 5%)
         time (float): Time period in years
         compounds_per_year (int): Number of times interest is compounded per year
-
+ Returns:
+        float: Final amount after compound interest
+    """
+    # Formula: A = P(1 + r/n)^(nt)
+    final_amount = principal * (1 + rate/compounds_per_year)**(compounds_per_year * time)
+    return final_amount
