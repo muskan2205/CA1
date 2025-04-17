@@ -29,3 +29,10 @@ def calculate_compound_interest(principal, rate, time, compounds_per_year=1):
     # Formula: A = P(1 + r/n)^(nt)
     final_amount = principal * (1 + rate/compounds_per_year)**(compounds_per_year * time)
     return final_amount
+    # Example usage
+if __name__ == "__main__":
+    # Example: $1000 at 5% interest for 5 years, compounded annually
+    principal = 1000
+    rate = 0.05  # 5%
+    time = 5     # 5 years
+
