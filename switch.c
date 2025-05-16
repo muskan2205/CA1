@@ -8,14 +8,16 @@ int main() {
 
     switch (number) {
         case 1:
-            printf("You entered One.\n");
+            printf("You entered 10.\n");
             break;
 	    case 2:
-            printf("You entered Two.\n");
+            printf("You entered 20.\n");
             break;
 	    case 3:
-            printf("You entered Three.\n");
+            printf("You entered 30.\n");
             break;
 	    case 4:
-            printf("You entered Four.\n");
+            printf("You entered 40.\n");
             break;
+	    default:("invalid");
+		    break;
