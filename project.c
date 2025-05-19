@@ -5,4 +5,5 @@ struct Node {
     struct Node* prev;
     struct Node* next;
 };
+struct Node* head = NULL;
 
