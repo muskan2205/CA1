@@ -45,4 +45,8 @@ printf("Backward: ");
         temp = temp->prev;
     }
     printf("\n");
-}
+}int main() {
+    insertEnd(10);
+    insertEnd(20);
+    insertEnd(30);
+    insertEnd(40);
