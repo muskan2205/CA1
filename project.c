@@ -39,4 +39,10 @@ struct Node* createNode(int value) {
     }
 while (temp->next != NULL)
         temp = temp->next;
-
+printf("Backward: ");
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->prev;
+    }
+    printf("\n");
+}
