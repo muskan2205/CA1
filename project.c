@@ -12,4 +12,9 @@ struct Node* createNode(int value) {
     newNode->prev = NULL;
     newNode->next = NULL;
     return newNode;
-}
+}void insertEnd(int value) {
+    struct Node* newNode = createNode(value);
+    if (head == NULL) {
+        head = newNode;
+        return;
+    }
