@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int number;
+    
+    printf("Enter a number (1-4): ");
+    scanf("%d", &number);
+
+    switch (number) {
+        case 1:
+<<<<<<< HEAD
+            printf("You entered 2000.\n");
+            break;
+	    case 2:
+            printf("You entered 3000.\n");
+            break;
+	    case 3:
+            printf("You entered 4000.\n");
+            break;
+	    case 4:
+            printf("You entered 5000.\n");
+=======
+            printf("You entered 200.\n");
+            break;
+	    case 2:
+            printf("You entered 300.\n");
+            break;
+	    case 3:
+            printf("You entered 400.\n");
+            break;
+	    case 4:
+            printf("You entered 500.\n");
+>>>>>>> master
+            break;
+	    default:("invalid");
+		    break;
