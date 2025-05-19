@@ -31,5 +31,11 @@ struct Node* createNode(int value) {
         temp = temp->next;
     }
     printf("\n");
-}
+}void displayBackward() {
+    struct Node* temp = head;
+    if (temp == NULL) {
+        printf("List is empty.\n");
+        return;
+    }
+
 
