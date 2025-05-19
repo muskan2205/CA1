@@ -17,4 +17,10 @@ struct Node* createNode(int value) {
     if (head == NULL) {
         head = newNode;
         return;
-    }
+     }struct Node* temp = head;
+    while (temp->next != NULL)
+        temp = temp->next;
+
+    temp->next = newNode;
+    newNode->prev = temp;
+}i
