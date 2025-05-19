@@ -50,3 +50,8 @@ printf("Backward: ");
     insertEnd(20);
     insertEnd(30);
     insertEnd(40);
+    displayForward();  
+    displayBackward(); 
+
+    return 0;
+}
