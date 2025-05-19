@@ -23,4 +23,13 @@ struct Node* createNode(int value) {
 
     temp->next = newNode;
     newNode->prev = temp;
-}i
+}void displayForward() {
+    struct Node* temp = head;
+    printf("Forward: ");
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
+}
+
