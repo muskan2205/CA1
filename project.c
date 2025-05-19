@@ -37,5 +37,6 @@ struct Node* createNode(int value) {
         printf("List is empty.\n");
         return;
     }
-
+while (temp->next != NULL)
+        temp = temp->next;
 
